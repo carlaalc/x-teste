@@ -3,7 +3,7 @@ html, body {
 	width: 100%;
 }
 .navbar {
-	background-color: #292b2c;
+	background-color: #acb0b2;
 	padding: 1% 0;
 	font-size: 1.2em;
 }
@@ -167,6 +167,7 @@ footer hr {
   height: 1px;
   width: 60%;
 }
+
 @media (max-width: 768px) {
 	.landing-text h1 {
 		font-size: 300%;
