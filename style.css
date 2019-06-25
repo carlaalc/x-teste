@@ -211,6 +211,14 @@ footer hr {
 	.landing-text h1 {
 		font-size: 300%;
 	}
+  #home {
+  background: url(img/banner-ok-mobile.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
   .lead {
     padding-top: 40px;
     text-align: center;
