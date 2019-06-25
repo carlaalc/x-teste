@@ -172,6 +172,10 @@ footer hr {
 	.landing-text h1 {
 		font-size: 300%;
 	}
+  .lead {
+    padding-top: 40px;
+    text-align: center;
+  }
 }
 .form-contact input[type="text"],
 .form-contact input[type="email"] {
@@ -205,3 +209,4 @@ footer hr {
 .coluna {
     float: left;
     width: 100%;
+}
