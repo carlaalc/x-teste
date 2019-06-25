@@ -3,7 +3,7 @@ html, body {
 	width: 100%;
 }
 .navbar {
-	background-color: #b2acad;
+	background-color: #333333;
 	padding: 1% 0;
 	font-size: 1.2em;
 }
@@ -61,6 +61,9 @@ h5 {
 h6 {
 	font-size: 120%;
 	font-weight: 200;
+}
+.destaque {
+  font-size: 150%;
 }
 #nossosclientes h2 {
 	margin-top: 100px;
@@ -137,6 +140,7 @@ hr {
 }
 #nossosclientes .row {
     flex-direction: row;
+    background-color: red;
 }
 #nossosclientes .container {
     max-width: 90%;
@@ -167,16 +171,6 @@ footer hr {
   height: 1px;
   width: 60%;
 }
-
-@media (max-width: 768px) {
-	.landing-text h1 {
-		font-size: 300%;
-	}
-  .lead {
-    padding-top: 40px;
-    text-align: center;
-  }
-}
 .form-contact input[type="text"],
 .form-contact input[type="email"] {
     width: 40%;
@@ -206,6 +200,54 @@ footer hr {
     float: left;
     margin-left: 1%;
 }
+.subtitulo {
+  font-size: 110%;
+  font-weight: 600;
+  text-align: left;
+  padding: 40px 5px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+  .lead {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .form-contact input[type="text"],
+  .form-contact input[type="email"] {
+    width: 100%;
+    margin: 0 1% 20px;
+    display: block;
+    float: left;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .form-contact textarea {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0 1% 20px;
+    height: 90px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    }
+.form-contact input[type='submit'] {
+    float: left;
+    margin-left: 1%;
+    }
+    .subtitulo {
+    text-align: center;
+    }
+}
+
 .coluna {
     float: left;
     width: 100%;
