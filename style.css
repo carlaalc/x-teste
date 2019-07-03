@@ -3,7 +3,7 @@ html, body {
 	width: 100%;
 }
 .navbar {
-	background-color: #333333;
+	background-color: #fff;
 	padding: 1% 0;
 	font-size: 1.2em;
 }
@@ -12,13 +12,13 @@ html, body {
 	padding: 0 15px 5px;
 }
 .navbar-default .navbar-nav li a {
-	color: #d5d5d5;
+	color: #b5b5b5;
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
-	color: #fff;
+	color: #333333;
 }
 #home {
-	background: url(img/banner-ok.png) no-repeat center center fixed;
+	background: url(img/banner-ok-teste1a.png) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -59,25 +59,15 @@ h5 {
 	padding-bottom: 50px;
 }
 h6 {
-	font-size: 120%;
+	font-size: 140%;
 	font-weight: 200;
 }
 .destaque {
-  font-size: 150%;
+  font-size: 120%;
 }
 #nossosclientes h2 {
 	margin-top: 100px;
 }
-#servicos ul {
- font-size: 130%;
- list-style-type: none;
- font-weight: 300;
- color: #292b2c;
- text-align: center;
- position: relative;
- width: 100%;
- margin-left: -20px;
- }
  th {
     font-size: 200%;
     font-weight: 600;
@@ -94,15 +84,28 @@ td {
 	padding: 80px 0;
 }
 .padding img {
-	width: 100%;
+	width: 70%;
 }
 #servicos {
 	background-color: #f9f9f9;
 }
+#servicos ul {
+ font-size: 130%;
+ list-style-type: none;
+ font-weight: 300;
+ color: #292b2c;
+ text-align: center;
+ position: relative;
+ width: 100%;
+ margin-left: -20px;
+ }
 hr {
   color: #f00;
   background-color: #5cb85c;
   height: 1px;
+}
+.bold {
+  height: 3px;
 }
 .circulo {
     width: 107px;
@@ -159,6 +162,23 @@ hr {
 .wrap {
     flex-wrap: wrap;
 }
+#ilustra {
+  padding: 60px 0 20px 0;
+  margin: auto;
+  font-size: 130%;
+  list-style-type: none;
+  font-weight: 300;
+  color: #292b2c;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.icone1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
 footer {
 	width: 100%;
 	background-color: #292b2c;
@@ -204,7 +224,7 @@ footer hr {
   font-size: 110%;
   font-weight: 600;
   text-align: left;
-  padding: 40px 5px;
+  padding: 0 5px;
   margin: auto;
 }
 @media (max-width: 768px) {
@@ -258,8 +278,6 @@ footer hr {
     .subtitulo {
     text-align: center;
     }
-}
-
 .coluna {
     float: left;
     width: 100%;
