@@ -18,7 +18,7 @@ html, body {
 	color: #333333;
 }
 #home {
-	background: url(img/banner-ok-xx.png) no-repeat center center fixed;
+	background: url(img/01-a-banner.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -27,9 +27,9 @@ html, body {
 }
 .landing-text {
 	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	color: #fff;
+	text-align: right;
+	vertical-align: top;
+  padding: 100px 100px 0 0;
 }
 .landing-text h1 {
 	font-size: 500%;
@@ -44,7 +44,7 @@ html, body {
 h2 {
 	font-size: 250%;
 	font-weight: 700;
-	padding: 10px 0 50px 0;
+	padding: 80px 0 50px 0;
 }
 h4 {
 	font-size: 120%;
@@ -64,9 +64,10 @@ h6 {
 }
 .destaque {
   font-size: 120%;
+  padding-top: 50px;
 }
 #nossosclientes h2 {
-	margin-top: 100px;
+	margin-top: 20px;
 }
  th {
     font-size: 200%;
@@ -80,11 +81,22 @@ td {
     color: #333333;
     text-align: center;
 }
-.padding {
-	padding: 80px 0;
+.space {
+	padding: 10px 0;
 }
-.padding img {
-	width: 70%;
+.space p {
+  font-size: .9em;
+  color: #292b2c;
+}
+.space img {
+	width: 100%;
+  padding-top: 10px;
+}
+#frasefoto {
+  font-size: 160%;
+  color: #292b2c;
+  text-align: center;
+  padding: 13px;
 }
 #servicos {
 	background-color: #f9f9f9;
@@ -143,7 +155,7 @@ hr {
 }
 #nossosclientes .row {
     flex-direction: row;
-    background-color: red;
+    background-color: #f9f9f9;
 }
 #nossosclientes .container {
     max-width: 90%;
@@ -173,32 +185,58 @@ hr {
   position: relative;
   width: 100%;
 }
+#ilustra p {
+  color: #292b2c;
+}
+#atuacao p {
+  color: #292b2c;
+  font-size: 130%;
+}
+#atuacao img {
+  width: 80%;
+  margin-top: -30px;
+}
 .icone1 {
     width: 200px;
     height: 200px;
     position: relative;
     margin: auto;
 }
+#address {
+  color: #333333;
+  display: block;
+  position: relative;
+  float: right;
+  width: 50%;
+  padding: 10px 60px;
+  font-size: 90%;
+  margin: 10px 50px 0 0;
+  text-align: justify;
+}
 footer {
 	width: 100%;
-	background-color: #292b2c;
-	padding: 5% 5% 10% 5%;
+	background: url(img/banner-contato1a.png) no-repeat;
+	/*padding: 5% 5% 10% 5%;
 	color: #fff;
+  height: 100%;*/
 }
-footer hr {
+footer .hr {
   color: #f00;
   background-color: #fff;
   height: 1px;
-  width: 60%;
+  width: 100%;
+}
+#form {
+  float: right;
+  color: red;
 }
 .form-contact input[type="text"],
 .form-contact input[type="email"] {
+    display: block;
     width: 40%;
     margin: 0 1% 20px;
-    display: block;
     float: left;
     padding: 7px 10px;
-    border: none;
     border-radius: 5px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -206,11 +244,11 @@ footer hr {
 
 .form-contact textarea {
     display: block;
-    clear: both;
     width: 82%;
     margin: 0 1% 20px;
     height: 90px;
     padding: 7px 10px;
+    clear: both;
     box-sizing: border-box;
     border-radius: 5px;
     resize: none;
@@ -234,19 +272,11 @@ footer hr {
   #home {
   background: url(img/banner-ok-mobile.png) no-repeat center center fixed;
   display: table;
+  width: 100%;
   height: 100%;
   position: relative;
-  width: 100%;
   background-size: cover;
 }
-  .lead {
-    padding-top: 40px;
-    text-align: center;
-  }
-  p {
-    text-align: justify;
-    color: #fc9c04;
-  }
   .form-contact input[type="text"],
   .form-contact input[type="email"] {
     width: 100%;
