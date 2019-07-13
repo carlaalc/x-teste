@@ -1,0 +1,36 @@
+#home {
+  background: url(img/01-a-banner-mobile.jpg) no-repeat center center fixed;
+  display: table;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  background-size: cover;
+}
+  .form-contact input[type="text"],
+  .form-contact input[type="email"] {
+    width: 100%;
+    margin: 0 1% 20px;
+    display: block;
+    float: left;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .form-contact textarea {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0 1% 20px;
+    height: 90px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    }
+.form-contact input[type='submit'] {
+    float: left;
+    margin-left: 1%;
+    }
