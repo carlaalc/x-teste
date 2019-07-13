@@ -265,4 +265,11 @@ footer .hr {
     float: left;
     width: 100%;
 }
+#address {
+  text-align: center;
+  width: 100%;
+}
+footer {
+  
+}
 }
