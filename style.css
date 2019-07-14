@@ -285,4 +285,39 @@ footer h2 {
   padding-top: 190px;
   padding-bottom: 10px;
 }
+#address {
+  margin: auto;
+}
+#address p {
+  text-align: center;
+}
+#formulario {
+  margin: 0 auto;
+}
+.form-contact input[type="text"],
+.form-contact input[type="email"] {
+    display: block;
+    width: 48%;
+    margin: 0 1% 20px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-contact textarea {
+    display: block;
+    width: 98%;
+    margin: 0 1% 20px;
+    height: 90px;
+    padding: 7px 10px;
+    clear: both;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-contact input[type='submit'] {
+    float: left;
+    margin-left: 1%;
+}
 }
