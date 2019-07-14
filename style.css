@@ -318,4 +318,9 @@ footer h2 {
     float: left;
     margin-left: 1%;
 }
+.item {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
 }
