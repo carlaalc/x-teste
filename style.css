@@ -275,10 +275,6 @@ footer .hr {
     float: left;
     width: 100%;
 }
-#address {
-  text-align: center;
-  width: 100%;
-}
 footer {
   background: url(img/banner-contato2a.png) no-repeat;
 }
@@ -288,9 +284,10 @@ footer h2 {
 }
 #address {
   margin: auto;
+  width: 100%;
 }
 #address p {
-  text-align: center;
+  text-align: justify;
 }
 #formulario {
   margin: 0 auto;
