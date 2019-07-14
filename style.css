@@ -159,6 +159,7 @@ hr {
     margin: 5px;
     text-align: center;
     font-size: 1.5em;
+    /*box-shadow: 0 0 0 1px #333333;*/
 }
 .wrap {
     flex-wrap: wrap;
