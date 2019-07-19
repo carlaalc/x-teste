@@ -261,7 +261,7 @@ footer .hr {
     width: 1%;
 }
 #home {
-  background: url(img/01-a-banner.jpg) no-repeat center center fixed;  /*img/banner-ok-mobile-ok2b.png*/
+  background: url(img/01-a-banner-mobile.jpg) no-repeat center center fixed;  /*img/banner-ok-mobile-ok2b.png*/
   display: table;
   width: 100vw;
   height: 100vh;
