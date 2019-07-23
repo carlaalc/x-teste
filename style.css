@@ -18,16 +18,16 @@ html, body {
 	color: #333333;
 }
 #home {
-  background-color: red;
+  background-image: url(img/01-a-banner.jpg);
 	/*background: url(img/01-a-banner.jpg) no-repeat center center fixed;*/
 	display: table;
 	height: 100%;
+  background-size: cover;*/
 	position: relative;
 	width: 100%;
-	/*background-size: cover;*/
 }
 .landing-text {
-	display: table-cell;
+	/*display: table-cell;*/
 	text-align: right;
 	vertical-align: top;
   padding: 100px 100px 0 0;
