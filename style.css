@@ -255,7 +255,7 @@ footer .hr {
   padding: 0 5px;
   margin: auto;
 }
-@media (max-width: 808px) {
+@media (max-width: 768px) {
 .landing-text img {
     width: 1%;
 }
